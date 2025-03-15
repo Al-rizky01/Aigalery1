@@ -1,0 +1,80 @@
+name: aigalery1
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.6.0
+  cloud_firestore: ^5.4.4
+  firebase_auth: ^5.3.1
+  crypto: ^3.0.1  
+  flutter_launcher_icons: ^0.14.1
+  flutter_native_splash: ^2.4.1
+  introduction_screen: ^3.1.14 
+  uuid: ^4.5.1
+  shared_preferences: ^2.0.10
+  firebase_storage: ^12.3.3
+  image_picker: ^1.0.0+1
+  connectivity_plus: ^6.0.5
+  flutter_image_compress: ^2.3.0
+  permission_handler: ^11.3.1
+  flutter_staggered_grid_view: ^0.6.1
+  intl: ^0.19.0
+  device_info_plus: ^9.0.0
+  timeago: ^3.2.2
+  shimmer: ^3.0.0
+  cached_network_image: ^3.3.0
+  flutter_cache_manager: ^3.3.1
+  path_provider: ^2.0.15
+  http: ^1.2.2
+  cupertino_icons: ^1.0.2
+  navigation_view: ^1.0.6
+  iconly: ^1.0.1
+  flutter_animate: ^4.5.0
+  flex_color_scheme: ^7.3.1
+  
+ 
+  
+
+  
+
+flutter_icons:
+  android: true  # Menyatakan akan mengganti icon untuk Android
+  ios: true      # Menyatakan akan mengganti icon untuk iOS
+  image_path: "assets/icon-a.png"  # Path ke file gambar icon yang akan digunakan
+  adaptive_icon_background: "assets/icon-a.png"  # Background untuk icon Android adaptif
+  adaptive_icon_foreground: "assets/icon-back.png" 
+  remove_alpha_ios: true
+
+flutter_native_splash:
+  color: "#ffffff"  # Warna latar belakang jika gambarnya tidak memenuhi layar
+  image: assets/aisplash.jpg  # Gambar splash
+  android: true
+  ios: true
+  web: false
+  fullscreen: true
+  android_gravity: fill  # Mengisi layar sambil mempertahankan aspect ratio
+  ios_content_mode: scaleAspectFill  # Untuk iOS, memastikan gambar diisi penuh dan menjaga aspect ratio
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Menambahkan assets untuk gambar
+  assets:
+    - assets/icon-a.png
+    - assets/icon-back.png
+    - assets/icon-fore.png
+    - assets/aisplash.jpg
+    - assets/bg-homepage.png
+    - assets/AlGALERY-removebg-preview.png
